@@ -49,7 +49,7 @@ with `python spectrophotometer.py`.
 
 ![Linear with Intercept](images/linear-intercept.png)
 
-![Using Linear with Intercept](images/linear-intercept-use.png)
+![Using Linear with Intercept](images/linear-intercept-use.png) 
 
 ![Cubic](images/cubic.png)
 
