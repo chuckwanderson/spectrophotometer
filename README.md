@@ -74,26 +74,34 @@ Coming soon.
 
 ## Installation
 
-Coming soon.
+Use  [rpi-imager](https://www.raspberrypi.com/software/)  to install 64 bit version with desktop
 
-<!--
-1. Clone the repository
-	```    
-	$ git clone https://github.com/emalderson/ThePhish.git
-	```
- 2. Create a Python virtual environment and activate it (it is good practice but it is not required)
-	```     
-	$ cd ThePhish/app
-	$ sudo apt install python3-venv
-	$ python3 -m venv venv
-	$ source venv/bin/activate
-	 ```
- 3. Install the requirements
-	```
-	$ pip install -r requirements.txt
-	```
+Set up user   `spectro`   with password   `cleanwater4all`
 
--->
+```
+pip install scipy
+pip install tk
+pip install adafruit_3008
+
+python spectrophotometer.py
+```
+
+In Desktop, create  `Spectrophotometer.desktop`   file containing:
+
+```
+[Desktop Entry]
+Name=Spectrophotometer
+Comment=Python code to interface with Dr. Seth Frisbie's Spectrophotometer via a Raspberry Pi
+Icon=/home/spectro/testtube.jpg
+Exec=python /home/spectro/spectrophotometer.py
+Type=Application
+Terminal=false
+StartupNotify=false
+```
+
+Then in the file manager (nautilus), select this .desktop file, then under Edit, Preferences, General, and check the box for "Don't ask options on launch of executable file"
+
+
 
 
 ## License
