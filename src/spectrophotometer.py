@@ -52,7 +52,7 @@ heading = [[sg.Text("Seth's Spectacular Spectrophotometer", size=(50, 1), justif
            [sg.Text('Charles W. Anderson, Seth H. Frisbie, Erika J. Mitchell, and Kenneth R. Sikora',
                     size=(80, 1),
                     justification='right', font=('latin modern roman', 12, 'bold'))],
-           [sg.Text('\"It\'s the questions that drive us, Mr. Anderson" -- Agent Smith (The Matrix)',
+           [sg.Text('\"It\'s the question that drives us." -- Trinity (The Matrix)',
                     size=(75, 1),
                     justification='right', font=('latin modern roman', 14, 'italic'))],
            [sg.Text('Spectrophotometer is not connected. Random voltage values will be used.',
