@@ -43,13 +43,27 @@ Coming soon.
 ## How to Use
 
 After installing the `src/*.py` onto the Raspberry Pi, launch the code
-with `python spectrophotometer.py`.
+with `python spectrophotometer.py`.  You should see this the following
+window.
 
 ![Start Screen](images/first-screen.png)
 
+After clicking on OK you will go to a window in which you can record
+sensor readings from several samples.  When done, you will go to a
+window like this.
+
 ![Linear with Intercept](images/linear-intercept.png)
 
+If you choose to "Use" this calibration equation, you will advance
+to the following screen where you can type a sample ID, place the
+sample in the spectrophotometer, and click "Record". The result will
+be entered in the table.  When done, you can insert a USB drive into 
+the Raspberry Pi and save this table into a csv file on the drive.
+
 ![Using Linear with Intercept](images/linear-intercept-use.png) 
+
+If your initial calibration samples are not fit well with a linear or
+quadratic formula, a cubic formula is tried.  Here is an example.
 
 ![Cubic](images/cubic.png)
 
