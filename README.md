@@ -42,7 +42,17 @@ Coming soon.
 
 ## How to Use
 
-Coming soon.
+After installing the `src/*.py` onto the Raspberry Pi, launch the code
+with `python spectrophotometer.py`.
+
+![Start Screen](images/first-screen.png)
+
+![Linear with Intercept](images/linear-intercept.png)
+
+![Using Linear with Intercept](images/linear-intercept-use.png)
+
+![Cubic](images/cubic.png)
+
 
 ## Implementation
 
@@ -70,6 +80,7 @@ Coming soon.
 	```
 
 -->
+
 
 ## License
 
