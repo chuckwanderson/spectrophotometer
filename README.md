@@ -43,7 +43,7 @@ Coming soon.
 ## How to Use
 
 After installing the `src/*.py` onto the Raspberry Pi, launch the code
-with `python spectrophotometer.py`.  You should see this the following
+with `python spectrophotometer.py`.  You should see the following
 window.
 
 ![Start Screen](images/first-screen.png)
