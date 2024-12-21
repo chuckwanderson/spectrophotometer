@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Spectrophotometer
+Exec=/home/spectro/spectrophotometer
+Icon=/home/spectro/testtube.png
+Terminal=false
+StartupNotify=true
