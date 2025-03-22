@@ -11,6 +11,8 @@
 The repository contains Python code to run on a Raspberry Pi that provides an
 interface for Dr. Seth Frisbie's spectrophotometer device.
 
+The latest update (March 22, 2025) can be installed on a Raspberry Pi by downloading `install.sh` and `spectro.zip` directly to a Pi, or to a USB stick to copy onto a Pi.  Then run `bash install.sh` and an icon with mutiple test tubes should appear on the Desktop.  Double click this to run!
+
 Details to be provided soon.
 
 <!--
